@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* margin-left: 10vh; */
+    box-sizing: border-box;
+    /* max-height: 100;
+    max-width: 100; */
+    font-family: "Poppins", sans-serif;
+    /* overflow: hidden;*/
+} 
+.logo{
+    padding: 25px;
+    /* margin-right:3vh; */
+    margin-left: -10vh;
+}
+/* hr{
+    color: white;
+} */
+nav{
+    width: 100vw;
+    background-color: #000;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    background-color: #fff;
+    height: 60px;
+    width: 2px;
+}
+
+.list{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    /* align-items: center;*/
+    margin-top: -1vh;
+    font-family: "Poppins";
+    font-weight: 600;
+} 
+.apps{
+    margin-left: 4vh;
+}
+.upbtn{
+    color: aliceblue;
+    font-size: 20px;
+    height: 40px;
+    width: 140px;
+    background: hsl(296, 89%, 41%);
+    border-radius: 6px;
+    border: none;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* margin-left: 0vh; */
+    cursor: pointer;
+    margin-top: 23px;
+    margin-right: 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+    gap: 20px;
+    
+  }
+.body{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* text-align: center; */
+    /* margin-left: 10vh; */
+}
+.heading{
+    color: aliceblue;
+    font-size: 60px;
+    align-items: center;
+    margin-top: 23vh;
+    margin-left: 70vh;
+    /* font-family: "Poppins", sans-serif;*/
+} 
+.sec-heading{
+    color: aliceblue;
+    font-size: 60px;
+    align-items: center;
+    margin-top: 1vh;
+    margin-left: 65vh;
+    /* font-family: "Poppins", sans-serif; */
+}
+.peragraph{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 74vh;
+    margin-top: 2vh;
+    /* font-family: "Poppins", sans-serif; */
+}
+.hp{
+    margin-left: 4vh;
+    /* font-family: "Poppins", sans-serif; */
+}
+.downbtn{
+    color: aliceblue;
+    background: #ba0cc5;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+    /* background-color: #d612ab; */
+    border-radius: 1vh;
+    border: none;
+    /* display: flex; */
+    /* justify-content: end; */
+    margin-left: 93vh;
+    margin-top: 10vh;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+}
